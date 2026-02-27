@@ -1,0 +1,14 @@
+# Ignoriere alle node_modules Ordner, egal wo sie liegen
+node_modules/
+
+# Ignoriere Log-Dateien
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignoriere Build-Ordner von React (Vite)
+dist/
+
+# Ignoriere lokale Umgebungsvariablen
+.env
+.env.local
